@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    line-height: 1;
+    background-color: #f9f4ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+article[data-testid="test-profile-card"] {
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 24px;
+    background-color: #fff;
+    border: 2px solid #e0d1f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+img[data-testid="test-user-avatar"] {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; 
+}
+
+h2[data-testid="test-user-name"] {
+    font-size: 2em;
+    margin-bottom: 0.3em;
+    color: #512da8;
+}
+
+p[data-testid="test-user-bio"] {
+    color: #333;
+}
+
+ul[data-testid="test-user-social-links"] {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+ul[data-testid="test-user-social-links"] li {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0 5px;
+}
+
+h3 {
+    font-size: 1.3em;
+    color: #512da8;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+section ul li {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0 5px;
+}
+
+
+@media (max-width: 600px) {
+    article[data-testid="test-profile-card"] {
+        padding: 16px;
+    }
+
+    img[data-testid="test-user-avatar"] {
+        width: 100px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-Card</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+</head>
+<body>
+    <article data-testid="test-profile-card">
+        <div class="Profile image">
+          <figure>
+             <img src="./Assets/abdul_rasak image.jpg" 
+               alt="Profile Avater"
+               data-testid="test-user-avatar">
+          </figure> 
+          </div>
+          <div class="Profile-header">
+             <h2 data-testid="test-user-name">Abdulrasak Kamoru</h2>
+             <p data-testid="test-user-bio">Passionate frontend developer with a love for open-source projects and continuous learning. When I'm not coding, you can find me exploring new hiking trails.</p>
+             <div class="timestamp-badge">
+                <span>Current time (ms):</span>
+                <span data-testid="test-user-time" id="user-time"></span>
+             </div>
+             <ul data-testid="test-user-social-links">
+               <li data-testid="test-user-social-twitter"><a href=""><i class="fa-brands fa-x-twitter fa-beat"></i></a></li>
+               <li data-testid="test-user-social-linkedin"><a href=""><i class="fa-brands fa-linkedin fa-beat fa-lg" style="color: #204d6f;"></i></a></li>
+               <li data-testid="test-user-social-github"><a href=""><i class="fa-brands fa-github fa-beat-fade fa-lg" style="color: #273349;"></i></i></a></li>
+               <li data-testid="test-user-social-instagram"><a href=""><i class="fa-brands fa-instagram fa-beat fa-lg" style="color: #b93cb7;"></i></a></li>
+             </ul>
+             <section>
+                 <h3>Hobbies</h3>
+                   <ul data-testid="test-user-hobbies">
+                      <li>Waking up early</li>
+                      <li>Gaming</li>
+                      <li>Football</li>
+                      <li>Cooding</li>
+                   </ul>
+             </section>
+             <section>
+                  <h3>Dislikes</h3>
+                    <ul data-testid="test-user-dislikes">
+                     <li>Unorganized code</li>
+                     <li>Traffic</li>
+                     <li>Being Lazy</li>
+                     <li>Being Broke</li>
+                    </ul>
+             </section>
+          </div>
+         
+       
+      
+    </article>
+    
+    <script src="/time.js"></script>
+</body>
+</html>
