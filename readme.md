@@ -18,6 +18,11 @@ This project is a simple, responsive profile card built using HTML,CSS and JavaS
 *   CSS
 *   Font Awesome (for social media icons)
 *   JavaScript
+##  Live Demo
+
+🔗 **Live Demo:** (https://profile-card-hng-task.netlify.app/)
+
+🔗 **GitHub Repo:** (https://github.com/abdul-rasak/Profile-Card-HNG-TASK-0-)
 
 ## Getting Started
 
