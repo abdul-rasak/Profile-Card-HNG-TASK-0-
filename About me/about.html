@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Me — Profile Card</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main data-testid="test-about-page">
+    <article class="card">
+      <header>
+        <h1>About Me</h1>
+      </header>
+
+      <section aria-labelledby="bio-title">
+        <h2 id="bio-title">Bio</h2>
+        <p data-testid="test-about-bio">
+           I am passionate about learning how things work and enjoy the process of learning new technologies that I can apply to my work and personal projects.
+        </p>
+      </section>
+
+      <section aria-labelledby="goals-title">
+        <h2 id="goals-title">Goals in this program</h2>
+        <ul data-testid="test-about-goals">
+          <li>Understand responsive layouts (grid & flexbox)</li>
+          <li>Improve semantic & accessible HTML</li>
+          <li>Ship small, testable UI components</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="confidence-title">
+        <h2 id="confidence-title">Areas of low confidence</h2>
+        <p data-testid="test-about-confidence">
+          I sometimes struggle with ARIA specifics and complex CSS positioning — these are areas I want to practice more.
+        </p>
+      </section>
+
+      <section aria-labelledby="future-title">
+        <h2 id="future-title">Note to future self</h2>
+        <p data-testid="test-about-future-note">
+          Keep learning, prioritize accessibility, and remember to break problems into smaller parts.
+        </p>
+      </section>
+
+      <section aria-labelledby="extra-title">
+        <h2 id="extra-title">Extra thoughts</h2>
+        <p data-testid="test-about-extra">
+          Building more accessible forms and practicing keyboard-only navigation will make my projects stronger.
+        </p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
